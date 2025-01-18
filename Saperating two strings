@@ -1,0 +1,10 @@
+def solve(n,str):
+  w=''
+  c=''
+  for i in str:
+    if i in "aeiou":
+      w+=i
+    else:
+      c+=i
+  print(w)
+  print(c)

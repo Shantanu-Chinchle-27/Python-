@@ -1,0 +1,5 @@
+def print_pattern(n):
+  # write your code here
+  for i in range(n-1,-1,-1):
+    print(i*' '+n*'*')
+    
